@@ -1,0 +1,10 @@
+version: '2'
+services:
+    client:
+        build: ./client/
+        environment:
+        - ZMQ_PUB_ADDRESS=tcp://server:3000
+    server:
+        build: ./server/
+        environment:
+        - ZMQ_BIND_ADDRESS=tcp://*:3000
