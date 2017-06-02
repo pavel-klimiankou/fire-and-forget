@@ -1,0 +1,14 @@
+{
+  "name": "zeromq-server",
+  "version": "1.0.0",
+  "description": "Fire-and-forget pattern demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Klimenkov",
+  "license": "ISC",
+  "devDependencies": {
+    "zmq": "^2.15.3"
+  }
+}
